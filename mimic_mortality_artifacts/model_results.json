@@ -1,0 +1,45 @@
+{
+  "cohort_rows": 49695,
+  "mortality_count": 5739,
+  "mortality_rate": 0.11548445517657711,
+  "feature_count": 54,
+  "numeric_feature_count": 49,
+  "categorical_feature_count": 5,
+  "test_rows": 9939,
+  "metrics": [
+    {
+      "model": "Logistic regression",
+      "auroc": 0.8143963655417303,
+      "average_precision": 0.4141640115995059,
+      "balanced_accuracy": 0.7336325419131143,
+      "true_negatives": 6428,
+      "false_positives": 2363,
+      "false_negatives": 303,
+      "true_positives": 845
+    },
+    {
+      "model": "Random forest",
+      "auroc": 0.8423966227734495,
+      "average_precision": 0.4717287085118528,
+      "balanced_accuracy": 0.7383819153814659,
+      "true_negatives": 7507,
+      "false_positives": 1284,
+      "false_negatives": 433,
+      "true_positives": 715
+    }
+  ],
+  "lab_itemids": {
+    "50882": "bicarbonate",
+    "50902": "chloride",
+    "50912": "creatinine",
+    "50931": "glucose",
+    "50971": "potassium",
+    "50983": "sodium",
+    "51006": "bun",
+    "51221": "hematocrit",
+    "51222": "hemoglobin",
+    "51265": "platelets",
+    "51301": "wbc",
+    "50813": "lactate"
+  }
+}

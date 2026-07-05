@@ -1,0 +1,3 @@
+model,auroc,average_precision,balanced_accuracy,true_negatives,false_positives,false_negatives,true_positives
+Logistic regression,0.8143963655417303,0.4141640115995059,0.7336325419131143,6428,2363,303,845
+Random forest,0.8423966227734495,0.4717287085118528,0.7383819153814659,7507,1284,433,715
